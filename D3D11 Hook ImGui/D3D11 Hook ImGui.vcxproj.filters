@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{533af5f9-2e48-4bc0-bf02-d5aa71217d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ui">
+      <UniqueIdentifier>{4bc236fb-ab4f-496b-aac3-5fbe92be937e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\hook">
+      <UniqueIdentifier>{5cfac320-af84-467e-91f7-ffbc8a8e5c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{1c1b44fa-eb19-48ce-a228-876642be458c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\engine">
+      <UniqueIdentifier>{0ac92815-dbd4-4e9d-9a38-c71032f14ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ui\serverlist">
+      <UniqueIdentifier>{058ed0fc-e9d1-4a91-a646-6342f98ab354}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ui\drawing.h">
+      <Filter>Core\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Core\hook\hook.h">
+      <Filter>Core\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\engine\engine.hpp">
+      <Filter>Core\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ui\serverlist\servers.h">
+      <Filter>Core\ui\serverlist</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Core\ui\drawing.cpp">
+      <Filter>Core\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\hook\hook.cpp">
+      <Filter>Core\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ui\serverlist\servers.cpp">
+      <Filter>Core\ui\serverlist</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
