@@ -30,5 +30,4 @@ Feel free to open issues or submit pull requests if you want to contribute to th
 ## **License:**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-![Screenshot 2024-12-30 172843](https://github.com/user-attachments/assets/34b22c7a-6c17-419c-89bb-c576c58609a4)
 
